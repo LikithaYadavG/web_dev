@@ -1,0 +1,60 @@
+.flexcontainer {
+    display: flex;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.flex1 {
+    outline: solid;
+    box-shadow: grey;
+    margin: 10px;
+    box-shadow: 2px 2px 2px;
+    padding: 1rem;
+    width: 230px;
+    border:2px  solid rgb(144, 141, 141);
+    border-radius: 10px;
+
+}
+
+#class1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: auto;
+}
+
+#see1 {
+    background-color: powderblue;
+    padding: 10px;
+    color: black;
+    width: 200px;
+    text-align: center;
+}
+
+#value {
+    width: 300px;
+    
+}
+
+.img-flex{
+    width: 220px !important;
+    height: 300px;
+    
+}
+h1{
+    font-size: 30px;
+    background-color: powderblue;
+    text-align: center;
+
+}
+h1:hover{
+    font-size:40px ;
+}
+#class1:hover{
+    font-size: 30px;
+}
+#value:hover{
+    width: 320px;
+}
