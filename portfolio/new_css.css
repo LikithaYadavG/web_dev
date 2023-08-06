@@ -1,10 +1,9 @@
 
 nav{
-    display: flex;
-    align-items: center;
+    display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: black;
+    align-items: center;
 }
 .logo{
     width: 150px;
@@ -39,9 +38,11 @@ nav ul li a:hover::after{
     margin: 0 auto;
   }
   
- 
+ .entire_plx{
+    background: black;
+ }
 .parallax {
-    background-image: url('prallax_img1.jpg');
+    background-image: url(prallax_img1.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
