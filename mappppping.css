@@ -1,0 +1,33 @@
+.svg{
+    display: flex;
+    justify-content: center;
+}
+.amigo{
+    text-align: center;
+    font-size: 75px;
+    font-weight: bolder;
+    font-style: bold ;
+    color: rgb(192, 24, 80);
+
+}
+#geolocation-button{
+    display: flex;
+    color: rgb(192, 24, 80);
+}
+
+.text-heading{
+    color:rgb(192, 24, 80);
+    font-size: 100px;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.start{
+    text-align: end;
+    font-weight: 600;
+}
+
+.end{
+    text-align: start;
+    font-weight: 600;
+}

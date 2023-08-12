@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>location</title>
+    <meta charset="utf-8" />
+	<script type='text/javascript'>
+    function GetMap() {
+        var map = new Microsoft.Maps.Map('#myMap', {
+            credentials: "AlnPggzsP5tiQeS3bJxNuoJoJ7XOgGWsXlnrn8y2nFBiqgAeWc9_3709nmCuqXDq"
+        });
+
+        //Request the user's location
+        navigator.geolocation.getCurrentPosition(function (position) {
+            var loc = new Microsoft.Maps.Location(
+                position.coords.latitude,
+                position.coords.longitude);
+
+            //Add a pushpin at the user's location.
+            var pin = new Microsoft.Maps.Pushpin(loc);
+            map.entities.push(pin);
+
+            //Center the map on the user's location.
+            map.setView({ center: loc, zoom: 15 });
+        });
+    }
+    </script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+</head>
+<body style="background-color: black;">
+    <h1 style="color: rgb(192, 24, 80);font-size:250%;text-align: center;font-weight: bold;">Your Current Location </h1>
+    <center><div id="myMap" style="position:relative;width:600px;height:600px;"></div></center>
+</body>
+</html>
