@@ -1,0 +1,17 @@
+.entire_cont{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:1rem;
+    background-color: crimson;
+}
+.flexx{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.lang{
+    margin-top: 22rem;
+}
