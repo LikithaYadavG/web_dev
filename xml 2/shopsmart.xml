@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="shopsmart.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<products>
+    <product>
+        <id>1</id>
+        <name>Laptop</name>
+        <price>999.99</price>
+        <description>Powerful laptop with great features.</description>
+    </product>
+    <product>
+        <id>2</id>
+        <name>frock</name>
+        <price>900</price>
+        <description>Pure cotton dress</description>
+    </product>
+    <product>
+        <id>3</id>
+        <name>back bag</name>
+        <price>1000</price>
+        <description>High quality bag with comfortable </description>
+    </product>
+</products>
