@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fetch Books</title>
+    <link rel="stylesheet" href="bookss.css">
+  </head>
+  <body>
+    <center><h1>books</h1></center>
+    <center><button id="fetchBtn">Fetch Books</button></center>
+    <div id="bookList"></div>
+
+    <script>
+        function fetchBooks() {
+    const xhr = new XMLHttpRequest();
+    xhr.open('GET', 'https://www.googleapis.com/books/v1/volumes?q=subject:fiction', true);
+    xhr.onload = function() {
+      if(this.status === 200) {
+        const books = JSON.parse(this.responseText);
+        displayBooks(books.items);
+      }
+    }
+    xhr.send();
+  }
+  
+  function displayBooks(books) {
+    let output = '';
+    books.forEach(function(book) {
+      output += `
+        <div>
+          <h3>${book.volumeInfo.title}</h3>
+          <p>${book.volumeInfo.authors.join(', ')}</p>
+          <p>${book.volumeInfo.publishedDate}</p>
+        </div>
+      `;
+    });
+    document.getElementById('bookList').innerHTML = output;
+  }
+  
+  document.getElementById('fetchBtn').addEventListener('click', fetchBooks);
+    </script>
+  </body>
+</html>
+
+                                                           
