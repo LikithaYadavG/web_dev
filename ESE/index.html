@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dog Images</title>
+    <style>
+        body {
+            background-color: rgb(226, 43, 43);
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        button {
+            padding: 10px;
+            border-radius: 4px;
+            border: 2px solid white; 
+            background-color: transparent; 
+            color: white; 
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); 
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: white; 
+            color: rgb(226, 43, 43); 
+        }
+
+        #dogImage {
+            margin-top: 10px;
+            border: 2px solid white; 
+            border-radius: 4px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); 
+        }
+    </style>   
+</head>
+<body style="background-color:rgb(226, 43, 43);">
+    <center>
+    <h1>Random Dog Image</h1>
+    
+    <button style="padding: 10px; border-radius: 4px; border: none; box-shadow: 5px 5px 5px;" id="fetchDogBtn">Fetch  Random Dog Image</button><br>
+    <div>
+        <img style="margin-top:10px;" id="dogImage" src="" alt="Random Dog">
+    </div>
+    <script src=" randomimage.js "></script>
+    </center>
+</body>
+</html>

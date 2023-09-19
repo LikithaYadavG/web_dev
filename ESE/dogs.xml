@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CanineDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="dogs.xsd">
+  <Canine>
+    <Breed>Golden Retriever</Breed>
+    <Color>Golden</Color>
+    <Country>United States</Country>
+  </Canine>
+  <Canine>
+    <Breed>German Shepherd</Breed>
+    <Color>Black and Tan</Color>
+    <Country>Germany</Country>
+  </Canine>
+  <Canine>
+    <Breed>Poodle</Breed>
+    <Color>White</Color>
+    <Country>France</Country>
+  </Canine>
+  <Canine>
+    <Breed>Bulldog</Breed>
+    <Color>Brindle</Color>
+    <Country>United Kingdom</Country>
+  </Canine>
+  <Canine>
+    <Breed>Labrador Retriever</Breed>
+    <Color>Yellow</Color>
+    <Country>Canada</Country>
+  </Canine>
+  <Canine>
+    <Breed>Boxer</Breed>
+    <Color>Fawn</Color>
+    <Country>Germany</Country>
+  </Canine>
+  <Canine>
+    <Breed>Beagle</Breed>
+    <Color>Tri-color</Color>
+    <Country>United Kingdom</Country>
+  </Canine>
+  <Canine>
+    <Breed>Dachshund</Breed>
+    <Color>Red</Color>
+    <Country>Germany</Country>
+  </Canine>
+  <Canine>
+    <Breed>Doberman Pinscher</Breed>
+    <Color>Black and Tan</Color>
+    <Country>Germany</Country>
+  </Canine>
+  <Canine>
+    <Breed>Rottweiler</Breed>
+    <Color>Black and Tan</Color>
+    <Country>Germany</Country>
+  </Canine>
+  <Canine>
+    <Breed>Siberian Husky</Breed>
+    <Color>Black and White</Color>
+    <Country>Russia</Country>
+  </Canine>
+  <Canine>
+    <Breed>Shih Tzu</Breed>
+    <Color>Various</Color>
+    <Country>Tibet</Country>
+  </Canine>
+  <Canine>
+    <Breed>Yorkshire Terrier</Breed>
+    <Color>Blue and Tan</Color>
+    <Country>United Kingdom</Country>
+  </Canine>
+  <Canine>
+    <Breed>Chihuahua</Breed>
+    <Color>Various</Color>
+    <Country>Mexico</Country>
+  </Canine>
+  <Canine>
+    <Breed>Pomeranian</Breed>
+    <Color>Various</Color>
+    <Country>Germany</Country>
+  </Canine>
+  <Canine>
+    <Breed>Boston Terrier</Breed>
+    <Color>Tuxedo</Color>
+    <Country>United States</Country>
+  </Canine>
+  <Canine>
+    <Breed>Great Dane</Breed>
+    <Color>Various</Color>
+    <Country>Germany</Country>
+  </Canine>
+  <Canine>
+    <Breed>Cocker Spaniel</Breed>
+    <Color>Various</Color>
+    <Country>United States</Country>
+  </Canine>
+  <Canine>
+    <Breed>Pug</Breed>
+    <Color>Fawn</Color>
+    <Country>China</Country>
+  </Canine>
+  <Canine>
+    <Breed>Shiba Inu</Breed>
+    <Color>Red</Color>
+    <Country>Japan</Country>
+  </Canine>
+  <Canine>
+    <Breed>Basset Hound</Breed>
+    <Color>Tricolor</Color>
+    <Country>France</Country>
+  </Canine>
+  <Canine>
+    <Breed>Bernese Mountain Dog</Breed>
+    <Color>Black, White, and Rust</Color>
+    <Country>Switzerland</Country>
+  </Canine>
+  <Canine>
+    <Breed>Rhodesian Ridgeback</Breed>
+    <Color>Wheaten</Color>
+    <Country>Zimbabwe</Country>
+  </Canine>
+  <Canine>
+    <Breed>Irish Setter</Breed>
+    <Color>Mahogany</Color>
+    <Country>Ireland</Country>
+  </Canine>
+  <Canine>
+    <Breed>Shetland Sheepdog</Breed>
+    <Color>Various</Color>
+    <Country>United Kingdom</Country>
+  </Canine>
+  <Canine>
+    <Breed>Miniature Schnauzer</Breed>
+    <Color>Salt and Pepper</Color>
+    <Country>Germany</Country>
+  </Canine>
+  <Canine>
+    <Breed>Alaskan Malamute</Breed>
+    <Color>Various</Color>
+    <Country>United States</Country>
+  </Canine>
+  <Canine>
+    <Breed>Collie</Breed>
+    <Color>Sable and White</Color>
+    <Country>United Kingdom</Country>
+  </Canine>
+  <Canine>
+    <Breed>Papillon</Breed>
+    <Color>Various</Color>
+    <Country>France</Country>
+  </Canine>
+  <Canine>
+    <Breed>West Highland White Terrier</Breed>
+    <Color>White</Color>
+    <Country>United Kingdom</Country>
+  </Canine>
+</CanineDetails>
