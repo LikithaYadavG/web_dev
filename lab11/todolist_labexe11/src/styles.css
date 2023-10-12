@@ -1,0 +1,107 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  background-image: url('https://cdn.pixabay.com/photo/2014/04/14/20/11/pink-324175_1280.jpg'); /* Updated background image URL */
+  background-size: contain; /* Adjusted background size */
+  transition: background-color 0.3s; /* Add background color transition effect */
+}
+
+.app {
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added a subtle box shadow */
+}
+
+.task-list {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 8px;
+  background-color: #f8f8f8; /* Slightly lighter background color */
+  background-image: url(''); /* Updated background image URL */
+  background-size: contain; /* Adjusted background size */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a box shadow */
+  transition: background-color 0.3s; /* Add background color transition effect */
+}
+
+.task-item:hover {
+  background-color: #e5e5e5; /* Change background color on hover */
+}
+
+.task-item span {
+  flex-grow: 1;
+  margin-right: 8px;
+}
+
+.edit-button,
+.delete-button,
+.save-button,
+.task-form button {
+  padding: 10px 16px; /* Adjusted button padding */
+  font-size: 18px; /* Increased font size for better visibility */
+  cursor: pointer; /* Changed cursor style */
+}
+
+.edit-button,
+.save-button {
+  background-color: lightblue; /* Green color */
+  color: black;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Add background and color transition */
+}
+
+.edit-button:hover {
+  background-color: #1e7e34; /* Darker green on hover */
+}
+
+.delete-button {
+  background-color: plum; /* Red color */
+  color: black;
+  border: none;
+  border-radius: 4px;
+  margin-left: 4px;
+  transition: background-color 0.3s, color 0.3s; /* Add background and color transition */
+}
+
+.delete-button:hover {
+  background-color: #b31323; /* Darker red on hover */
+}
+
+.save-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.task-form {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.task-form input[type="text"] {
+  width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: box-shadow 0.3s, border-color 0.3s; /* Add a transition effect */
+}
+
+.task-form input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a glowing box shadow */
+}
+
+.task-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
